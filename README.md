@@ -1,353 +1,284 @@
 <!DOCTYPE html>
-<html lang="hi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>गणित प्रश्नोत्तरी (कक्षा 10)</title>
+    <title>First Flight Questions</title>
     <style>
-         body {
-            font-family: 'Arial', sans-serif;
-            text-align: center;
-            margin: 40px;
-            background-color: #f9f9f9;
-            color: #333;
-            line-height: 1.6; /* Improved line spacing */
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            margin: 20px;
         }
-
-        .container {
-            background-color: white;
-            border-radius: 12px;
-            padding: 30px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.15); /* More prominent shadow */
-            max-width: 700px;
-            margin: 0 auto;
-            border: 1px solid #e1e1e1; /* Light border */
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
         }
-
-        h1, h2 {
-            color: #2c3e50;
-            margin-bottom: 20px; /* Spacing below headings */
+        ol {
+            margin-bottom: 20px;
         }
-
-        #name-form, #quiz-container, #results-container {
-            margin-top: 25px;
-            padding: 15px;
-            border-radius: 8px;
-            border: 1px solid #ddd;
-            background-color: #fefefe; /* Light background */
+         ol li {
+            margin-bottom: 10px;
+            padding-left: 5px;
         }
-
-       label {
-           display: block;
-           margin-bottom: 8px;
-           font-weight: bold;
-           color: #555; /* Darker label color */
+        .question-list {
+            margin-left: 20px; /* Indent question lists */
         }
-
-        input[type="text"] {
-            padding: 10px;
-            margin-bottom: 15px;
-            border: 1px solid #ccc;
-            border-radius: 6px;
-            width: calc(100% - 22px); /* Adjusted width */
-            box-sizing: border-box;
+        .print-button-container {
+          text-align: center;
+          margin-bottom: 20px;
         }
-
-        button {
-            padding: 12px 25px;
-             background-color: #3498db; /* A nicer blue */
+        .print-button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
             color: white;
             border: none;
-            border-radius: 6px;
             cursor: pointer;
-            transition: background-color 0.3s;
-            font-size: 1rem;
+            border-radius: 5px;
+            font-size: 16px;
         }
-
-        button:hover {
-            background-color: #2980b9; /* Darker hover blue */
-        }
-
-        #options button {
-             margin: 8px 0;
-           display: block;
-             width: calc(100% - 22px);
-        }
-           #scoreDisplay{
-          margin-top:20px;
-          font-weight:bold;
-           font-size: 1.2rem;
+         @media print {
+          .print-button-container {
+           display: none;
+          }
          }
-        #all-results h3 {
-          color: #2c3e50; /* Consistent heading color */
-          margin-bottom: 15px;
-          border-bottom: 1px solid #eee; /* Underline effect */
-          padding-bottom: 5px;
-      }
-       #all-results p{
-         background-color: #f0f0f0;
-         padding:10px;
-          margin-bottom:5px;
-         border-radius: 5px;
-        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>कक्षा 10 गणित प्रश्नोत्तरी</h1>
-        <div id="name-form">
-            <label for="userName">अपना नाम दर्ज करें:</label>
-            <input type="text" id="userName" required placeholder="यहाँ अपना नाम लिखें">
-            <button onclick="startQuiz()">प्रारंभ करें</button>
-        </div>
-        <div id="quiz-container" style="display:none;">
-            <h2 id="question-number"></h2>
-            <p id="question-text"></p>
-            <div id="options"></div>
-             <button onclick="nextQuestion()">अगला प्रश्न</button>
-            <p id = "scoreDisplay"></p>
-        </div>
-        <div id="results-container" style="display:none;">
-            <h2>परिणाम</h2>
-            <p id="user-result"></p>
-            <div id="all-results"></div>
+  <div class="print-button-container">
+    <button class="print-button" onclick="window.print()">Print this Page</button>
+</div>
 
-        </div>
+    <h2>Prose (Chapters)</h2>
+    <ol class="question-list">
+        <li>Why did Lencho write a letter to God? What were his reasons, and what did he write in the letter?</li>
+        <li>How did the postmaster and the other employees react to Lencho's letter? Why did they decide to help him?</li>
+        <li>What was Lencho's reaction upon receiving the money? Why was he angry and not grateful?</li>
+        <li>What is the irony present in the story about Lencho's letter?</li>
+         <li>Discuss the significance of the title of the first story.</li>
+        <li>Create a character sketch of both Lencho and the postmaster.</li>
+        <li>What event does Mandela call "a glorious human achievement"?</li>
+        <li>What were the main challenges faced by Mandela and the people of South Africa during apartheid?</li>
+        <li>How did the inauguration ceremony of the new South African government take place?</li>
+        <li>What does Mandela mean when he speaks of "freedom for all"?</li>
+        <li>What are Mandela's views on the meaning of courage?</li>
+        <li>How did Mandela's understanding of freedom evolve over the years?</li>
+        <li>Provide a character sketch of Nelson Mandela.</li>
+        <li>Why was the young seagull afraid to attempt his first flight?</li>
+        <li>How did the seagull's parents try to encourage him to fly?</li>
+         <li>Describe the young seagull's first flight. How did he feel during and after it?</li>
+        <li>How important was the role of family in the young seagull's story?</li>
+        <li>What does the story of the young seagull teach us about overcoming fear and self-doubt?</li>
+        <li>What motivated the narrator in the second story to fly to Paris instead of heading home?</li>
+        <li>Describe the narrator's experience flying through the storm.</li>
+        <li>What was the mystery behind the "black aeroplane" in the story?</li>
+        <li>What was the importance of the pilot of the black aeroplane to the narrator?</li>
+        <li>What do you think the experience of flying through the storm means to the narrator?</li>
+         <li>Why was Anne Frank's diary so important? Why did she decide to keep a diary?</li>
+        <li>Describe Anne's relationships with her family members and friends.</li>
+        <li>What kind of person was Anne Frank? How did she deal with the challenges she faced?</li>
+         <li>What does Anne's diary reveal about the lives of Jewish people during World War II?</li>
+        <li>What are some of the key lessons you learned from Anne's diary entries?</li>
+         <li>Discuss the significance of the diary in understanding Anne’s life and experience.</li>
+         <li>Why did Wanda Petronski feel different from the other girls at school?</li>
+         <li>Why did Peggy and Maddie tease Wanda? What motivated their actions?</li>
+         <li>Describe the internal conflict experienced by Maddie. Why did she not stop Peggy?</li>
+        <li>What does the story convey about the causes and effects of bullying?</li>
+        <li>How did Maddie’s feelings change by the end of the story?</li>
+         <li>What actions made Peggy feel uncomfortable by the end of the story?</li>
+         <li>What is the significance of bakers in Goan culture?</li>
+         <li>Describe a traditional Goan bakery from the author’s childhood memories.</li>
+         <li>Describe the natural beauty and unique features of Coorg.</li>
+          <li>What is special about the people and culture of Coorg?</li>
+         <li>What is so special about the tea gardens of Assam?</li>
+        <li>What are some of the important legends surrounding the origin of tea?</li>
+          <li>Describe the author's initial meeting with Mijbil.</li>
+         <li>How did the author and Mijbil develop their bond and learn to trust each other?</li>
+         <li>What kinds of games did the author and Mijbil enjoy together?</li>
+          <li>What did the author learn about otters by caring for Mijbil?</li>
+         <li>What does the story reveal about Mijbil’s personality?</li>
+         <li>How did Valli plan and prepare for her first bus ride?</li>
+          <li>Describe the details of Valli’s bus journey. What things did she see along the way?</li>
+        <li>How did the bus conductor interact with Valli?</li>
+         <li>What saddened Valli during the return journey by bus?</li>
+         <li>How does the bus journey play a significant role in Valli’s life?</li>
+        <li>Character sketch of Valli.</li>
+        <li>What was the main message of the sermon at Benares?</li>
+         <li>How did Kisa Gotami go about seeking help and understanding?</li>
+        <li>What did the Buddha teach about the nature of death and human suffering?</li>
+        <li>How can the teachings in the sermon apply to real-life situations?</li>
+        <li>What are the primary reasons behind Lomov’s visit to Chubukov’s house?</li>
+        <li>Describe the personalities of Lomov and Natalya.</li>
+        <li>What are the main reasons for the arguments between Lomov and Natalya?</li>
+        <li>How is comedy and humour used in the play?</li>
+        <li>What does this play reveal about Russian society at the time it was written?</li>
+    </ol>
+
+
+    <h2>Poems</h2>
+     <ol class="question-list">
+        <li>How does the "dust of snow" affect the poet's mood?</li>
+        <li>What is the overall tone of the poem, "Dust of Snow"?</li>
+        <li>Why are the crow and the hemlock tree used in the poem?</li>
+         <li>What are the two different ways the world might end, according to the poet in "Fire and Ice"?</li>
+        <li>What does the poet say about the destructive nature of desire?</li>
+        <li>What does the poet say about the destructive nature of hate?</li>
+         <li>Describe the tiger in the zoo, as presented in the poem.</li>
+         <li>How would the tiger be behaving if it were free in its natural habitat?</li>
+         <li>What message or contrast does the poem about the tiger convey?</li>
+         <li>How does the poet describe different ways to identify wild animals in the poem?</li>
+        <li>How does the poet use humor in the poem about identifying wild animals?</li>
+        <li>What is the significance of the loss of the ball in the "Ball Poem"?</li>
+        <li>From what point of view is the poem written?</li>
+        <li>What does the phrase "the epistemology of loss" refer to in the poem?</li>
+         <li>What are some of the instructions that Amanda receives from her parents?</li>
+         <li>How does Amanda react to the instructions she gets from her parents?</li>
+          <li>Why does the poet repeatedly use the name ‘Amanda’ in the poem?</li>
+         <li>What main message does the poem about Amanda convey to readers?</li>
+        <li>What does the poet say about animals in the poem, "Animals"?</li>
+        <li>What qualities of animals does the poet value?</li>
+         <li>Why does the poet feel more at home and comfortable with animals than humans?</li>
+         <li>What is the central idea or theme of the poem, "The Trees"?</li>
+         <li>Where are the trees at the beginning of the poem, and where are they going?</li>
+        <li>What notable changes does the poet observe during the poem?</li>
+         <li>How does the poet describe the fog in the poem?</li>
+          <li>What is the central idea or theme of the poem, "Fog"?</li>
+        <li>Describe the main characters in the poem, "The Tale of Custard the Dragon".</li>
+        <li>What happens when the pirate enters the story?</li>
+        <li>What overall message is conveyed by the poem, "The Tale of Custard the Dragon"?</li>
+        
+    </ol>
+
+<script>
+    function printPage() {
+        window.print();
+    }
+</script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footprints Without Feet Questions</title>
+     <style>
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+        ol {
+            margin-bottom: 20px;
+        }
+         ol li {
+            margin-bottom: 10px;
+            padding-left: 5px;
+        }
+        .question-list {
+            margin-left: 20px; /* Indent question lists */
+        }
+        .print-button-container {
+          text-align: center;
+          margin-bottom: 20px;
+        }
+        .print-button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        @media print {
+           .print-button-container {
+            display: none;
+           }
+          }
+    </style>
+</head>
+<body>
+
+    <div class="print-button-container">
+      <button class="print-button" onclick="window.print()">Print this Page</button>
     </div>
 
-    <script>
-         const questions = [
-    {
-        question: "1. वास्तविक संख्याएँ क्या होती हैं?",
-        options: ["केवल परिमेय संख्याएँ", "केवल अपरिमेय संख्याएँ", "परिमेय और अपरिमेय दोनों संख्याएँ", "कोई नहीं"],
-        answer: 2
-    },
-    {
-        question: "2. यदि दो बहुपद p(x) और q(x) में q(x) का घात p(x) के घात से अधिक हो, तो p(x)/q(x) क्या होगा?",
-        options: ["एक बहुपद", "एक अचर", "एक भिन्नात्मक बहुपद", "परिभाषित नहीं"],
-        answer: 3
-    },
-    {
-        question: "3. एक द्विघात समीकरण ax² + bx + c = 0 में विविक्तकर का सूत्र क्या है?",
-        options: ["b² - 4ac", "b² + 4ac", "a² - 4bc", "a² + 4bc"],
-        answer: 0
-    },
-      {
-        question: "4. यदि एक समांतर श्रेणी का पहला पद 'a' और सार्व अंतर 'd' हो, तो nवां पद ज्ञात करने का सूत्र क्या है?",
-        options: ["an = a + (n - 1)d", "an = a + nd", "an = a + (n + 1)d", "an = a + (n - 2)d"],
-        answer: 0
-    },
-    {
-        question: "5. दो समरूप त्रिभुजों की संगत भुजाएँ किस अनुपात में होती हैं?",
-        options: ["बराबर", "अनुपातिक", "लंबवत", "समकोणीय"],
-        answer: 1
-    },
-    {
-         question: "6. एक वृत्त की परिधि और व्यास का अनुपात क्या है?",
-        options: ["π/2", "π", "2π", "3π"],
-        answer: 1
-    },
-    {
-        question: "7. एक बेलन का आयतन क्या होता है?",
-        options: ["πr²h", "2πrh", "πr²", "2πr"],
-        answer: 0
-    },
-    {
-        question: "8. त्रिकोणमिति में, sin θ का मान क्या होता है?",
-       options: ["कर्ण/लंब", "आधार/कर्ण", "लंब/कर्ण", "आधार/लंब"],
-        answer: 2
-    },
-    {
-         question: "9. प्रायिकता का अधिकतम मान कितना होता है?",
-        options: ["0", "0.5", "1", "अनंत"],
-        answer: 2
-    },
-      {
-        question: "10. दो बिंदुओं (x1, y1) और (x2, y2) के बीच की दूरी का सूत्र क्या है?",
-        options: ["√(x1-x2)² + (y1-y2)²", "(x1-x2)² + (y1-y2)²", "√(x1+x2)² + (y1+y2)²", "x1-x2 + y1-y2"],
-        answer: 0
-    },
-    {
-        question: "11. यदि किसी वृत्त की त्रिज्या 7 सेमी हो, तो उसका क्षेत्रफल क्या होगा?",
-        options: ["154 वर्ग सेमी", "44 वर्ग सेमी", "22 वर्ग सेमी", "49 वर्ग सेमी"],
-         answer: 0
-    },
-     {
-        question: "12. यदि एक शंकु की त्रिज्या 3 सेमी और ऊँचाई 4 सेमी है, तो उसकी तिरछी ऊँचाई कितनी होगी?",
-        options: ["7 सेमी", "5 सेमी", "12 सेमी", "4 सेमी"],
-        answer: 1
-    },
-    {
-        question: "13. समीकरण x + y = 5 में कितने हल संभव हैं?",
-        options: ["कोई हल नहीं", "एक हल", "दो हल", "अनंत हल"],
-         answer: 3
-    },
-     {
-        question: "14. दो रेखाएँ जो एक-दूसरे को कभी नहीं काटतीं, क्या कहलाती हैं?",
-         options: ["प्रतिच्छेदी रेखाएँ", "लंब रेखाएँ", "समांतर रेखाएँ", "तिर्यक रेखाएँ"],
-        answer: 2
-    },
-    {
-        question: "15. एक समांतर चतुर्भुज में, सम्मुख कोण कैसे होते हैं?",
-         options: ["बराबर", "अनुपूरक", "पूरक", "लंबवत"],
-        answer: 0
-    },
-    {
-      question: "16. यदि tan θ = 1, तो θ का मान क्या है?",
-        options: ["30°", "45°", "60°", "90°"],
-        answer: 1
-    },
-    {
-         question: "17. cos 90° का मान क्या होता है?",
-        options: ["0", "1", "-1", "√3/2"],
-        answer: 0
-    },
-    {
-         question: "18. यदि किसी घटना के घटित होने की प्रायिकता 0.3 है, तो उसके न घटित होने की प्रायिकता क्या है?",
-        options: ["0.3", "0.7", "0", "1"],
-         answer: 1
-    },
-    {
-         question: "19. एक पासे को एक बार फेंकने पर 5 आने की प्रायिकता क्या है?",
-         options: ["1/6", "1/3", "1/2", "1/4"],
-        answer: 0
-    },
-    {
-        question: "20. एक गोले का पृष्ठीय क्षेत्रफल क्या होता है?",
-        options: ["4πr²", "2πr²", "πr²", "πr³"],
-         answer: 0
-    },
-    {
-      question:"21. यदि दो संख्याओं का योग 10 और अंतर 2 है, तो संख्याएँ क्या हैं?",
-        options: ["5 और 5", "6 और 4", "7 और 3", "8 और 2"],
-        answer: 1
-    },
-   {
-        question: "22. निम्नलिखित में से कौन सा समीकरण द्विघात समीकरण है?",
-        options: ["x + 2 = 0", "x² + 3x - 4 = 0", "x³ + 1 = 0", "2x - 5 = 0"],
-        answer: 1
-    },
-   {
-        question:"23. समांतर श्रेणी 2, 4, 6, ... का 10वां पद क्या है?",
-        options: ["18", "20", "22", "24"],
-       answer: 1
-   },
-    {
-        question: "24. सभी समबाहु त्रिभुज होते हैं:",
-        options: ["असमरूप", "समरूप", "सर्वांगसम", "कोई नहीं"],
-        answer: 1
-    },
-    {
-        question: "25. 10 सेमी त्रिज्या वाले वृत्त का क्षेत्रफल क्या है?",
-         options: ["100 वर्ग सेमी", "100π वर्ग सेमी", "200π वर्ग सेमी", "50π वर्ग सेमी"],
-        answer: 1
-    },
-    {
-       question: "26. एक घन का कुल पृष्ठीय क्षेत्रफल क्या होता है, यदि एक भुजा a है?",
-        options: ["a²", "4a²", "6a²", "a³"],
-       answer: 2
-    },
-     {
-      question: "27. यदि sin θ = 3/5 है, तो cos θ का मान क्या होगा?",
-      options: ["4/5", "5/3", "3/4", "5/4"],
-      answer: 0
-    },
-    {
-       question: "28. केंद्रीय प्रवृत्ति की माप क्या नहीं है?",
-        options: ["माध्य", "माध्यिका", "बहुलक", "विचरण"],
-        answer: 3
-    },
-    {
-      question: "29. दो पासे को एक साथ फेंकने पर दोनों पर समान अंक आने की प्रायिकता क्या है?",
-        options: ["1/6", "1/3", "1/2", "1/12"],
-        answer: 0
-    },
-    {
-        question: "30. मूल बिंदु के निर्देशांक क्या होते हैं?",
-        options: ["(1, 1)", "(0, 1)", "(1, 0)", "(0, 0)"],
-        answer: 3
-    }
+    <h2>Footprints Without Feet - Important Questions</h2>
+    <ol class="question-list">
+         <li>Why does Mrs. Pumphrey pamper Tricki so much?</li>
+        <li>How does the narrator react when he sees Tricki for the first time?</li>
+        <li>Why does the narrator take Tricki away from the house?</li>
+        <li>Describe the transformation Tricki undergoes at the narrator's surgery.</li>
+        <li>Why does Mrs. Pumphrey say, "This is a triumph of surgery?" Is she right?</li>
+        <li>Character sketches of Mrs. Pumphrey and the narrator, Mr. Herriot.</li>
+        <li>What kind of a person is Hari Singh? What is his profession?</li>
+        <li>Why does Hari Singh come to Anil? What did Hari do for him and how did Anil react?</li>
+        <li>How does Anil behave towards Hari? What did Hari learn from him?</li>
+        <li>Why does Hari Singh return to Anil after stealing from him?</li>
+        <li>What is the significance of the ending of the story?</li>
+        <li>Character sketches of Anil and Hari Singh.</li>
+        <li>Describe Ausable's appearance. How is he different from a typical secret agent?</li>
+        <li>What makes Max believe that Ausable is hiding something?</li>
+        <li>How does Ausable get rid of Max? What are the smart steps he takes?</li>
+        <li>How does the writer build suspense in the story?</li>
+        <li>What is your opinion on Ausable as a secret agent?</li>
+        <li>Character sketches of Ausable and Max.</li>
+        <li>What are Horace Danby's hobbies? What kind of a thief is he?</li>
+        <li>Why did Horace steal only once a year?</li>
+        <li>What happens at Shotover Grange? What went wrong for Horace?</li>
+        <li>Why does the woman pretend to be the owner of the house?</li>
+        <li>How does Horace realize that he has been tricked?</li>
+        <li>What is the irony in the ending of the story?</li>
+        <li>Character sketch of Horace Danby and the young lady.</li>
+        <li>Who is Griffin? What did he do to become invisible?</li>
+        <li>Why does Griffin become a lawless person?</li>
+        <li>How does Griffin behave in the Iping village? What does he do there?</li>
+        <li>How does the story convey the consequences of misusing science?</li>
+        <li>How does the story create the suspense related to the invisible man?</li>
+        <li>Character sketch of Griffin.</li>
+       <li>How did Richard Ebright's curiosity about butterflies lead him to scientific discoveries?</li>
+        <li>What does Ebright learn about monarch butterflies?</li>
+        <li>How does his research on butterflies lead to a theory about cell life?</li>
+        <li>What are the other factors contributing to Ebright's success?</li>
+        <li>What message does this story convey about curiosity and experimentation?</li>
+        <li>Character sketch of Richard Ebright.</li>
+         <li>Why is Madame Loisel unhappy? What does she dream of?</li>
+        <li>How does Madame Loisel manage to get the invitation to the ball?</li>
+        <li>Describe the events that take place after she loses the necklace.</li>
+        <li>How does the loss of the necklace change the life of the Loisels?</li>
+        <li>What is the irony in this story?</li>
+        <li>Character sketch of Madame Loisel and her husband.</li>
+        <li>Who is the narrator? What is his job?</li>
+        <li>Describe the narrator's first impression of Oliver Lutkins.</li>
+        <li>What did the hack driver tell the narrator about Lutkins?</li>
+        <li>How did the narrator feel when he was cheated by Lutkins?</li>
+        <li>What is the significance of the ending of the story?</li>
+        <li>Character sketch of the narrator and Oliver Lutkins.</li>
+        <li>What is the social status of girls in Bholi's family and village?</li>
+        <li>Why is Bholi sent to school? What are her initial feelings about it?</li>
+        <li>How does education bring about a change in Bholi?</li>
+         <li>Why does Bholi refuse to marry Bishamber?</li>
+       <li>How does the author convey the message about female empowerment?</li>
+        <li>Character sketch of Bholi.</li>
+       <li>What is the historical background of the play?</li>
+        <li>Why are the Martians afraid of the earthlings?</li>
+        <li>How does the book 'Mother Goose' save the Earth?</li>
+        <li>How does the author create humorous situations in the play?</li>
+        <li>What is the significance of the title?</li>
+       <li>Character sketch of Think-Tank and Noodle.</li>
+    </ol>
 
-];
-
-
-        let currentQuestion = 0;
-        let score = 0;
-        let userName = "";
-        let userResults = JSON.parse(localStorage.getItem('userResults') || '[]');
-        const nameForm = document.getElementById('name-form');
-        const quizContainer = document.getElementById('quiz-container');
-        const questionNumberElement = document.getElementById('question-number');
-        const questionTextElement = document.getElementById('question-text');
-        const optionsContainer = document.getElementById('options');
-        const resultsContainer = document.getElementById('results-container');
-        const userResultDisplay = document.getElementById('user-result');
-        const allResultsDisplay = document.getElementById('all-results');
-        const scoreDisplay = document.getElementById('scoreDisplay');
-
-
-        function startQuiz() {
-            userName = document.getElementById('userName').value.trim();
-            if (userName === "") {
-                alert("कृपया अपना नाम दर्ज करें!");
-                return;
-            }
-            nameForm.style.display = 'none';
-            quizContainer.style.display = 'block';
-            loadQuestion();
+ <script>
+        function printPage() {
+            window.print();
         }
-
-
-        function loadQuestion() {
-            questionNumberElement.textContent = `प्रश्न ${currentQuestion + 1} / ${questions.length}`;
-            questionTextElement.textContent = questions[currentQuestion].question;
-            optionsContainer.innerHTML = "";
-            questions[currentQuestion].options.forEach((option, index) => {
-                const button = document.createElement('button');
-                button.textContent = option;
-                button.onclick = () => checkAnswer(index);
-                optionsContainer.appendChild(button);
-            });
-        }
-
-        function checkAnswer(selectedOption) {
-            if (selectedOption === questions[currentQuestion].answer) {
-                score++;
-            }
-             currentQuestion++;
-            scoreDisplay.textContent = `अंक: ${score}`;
-            if (currentQuestion < questions.length) {
-                loadQuestion();
-            } else {
-                endQuiz();
-            }
-        }
-          function nextQuestion(){
-           checkAnswer(-1);
-        }
-
-        function endQuiz() {
-            quizContainer.style.display = 'none';
-            resultsContainer.style.display = 'block';
-            userResultDisplay.textContent = `${userName}, आपका स्कोर है: ${score} / ${questions.length}`;
-
-            userResults.push({ name: userName, score: score });
-            localStorage.setItem('userResults', JSON.stringify(userResults));
-            displayAllResults();
-        }
-
-        function displayAllResults() {
-            allResultsDisplay.innerHTML = "<h3>सभी प्रतिभागियों के परिणाम</h3>";
-            if (userResults.length === 0) {
-                allResultsDisplay.innerHTML = "<p>अभी कोई परिणाम उपलब्ध नहीं है.</p>";
-                return;
-            }
-            userResults.forEach(result => {
-                allResultsDisplay.innerHTML += `<p>${result.name}: ${result.score} / ${questions.length}</p>`;
-            });
-        }
-        window.onload = displayAllResults;
-
     </script>
+
 </body>
 </html>
